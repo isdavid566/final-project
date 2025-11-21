@@ -1,0 +1,51 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header {
+    background-color: #F58E03;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* nav */
+.nav-container {
+    display: inline-block;
+    justify-content: center;
+    background-color: #cfe65c;
+    padding: 6px 90px;
+    border-radius: 45px; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #2B4C13; 
+    font-size: 22px;
+    letter-spacing: 1.2px;
+    padding: 4px 0;
+}
+
+.nav-links a:hover {
+    color: #2a3317; 
+}
