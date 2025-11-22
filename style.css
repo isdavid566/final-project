@@ -1,4 +1,4 @@
-/* General reset */
+/* general */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +8,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #2B4C13;
+}
+
+/* fonts */
+@font-face {
+  font-family: LoveCraft; /* set name */
+  src: url(love_craft/Love/Craft.otf); /* url of the font */
 }
 
 /* header */
@@ -49,6 +55,11 @@ header {
 
 .nav-links a:hover {
     color: #2a3317; 
+}
+
+/* header */
+h1 {
+
 }
 
 /* button */
