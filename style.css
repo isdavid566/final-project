@@ -143,3 +143,53 @@ h1 {
 .button:hover {
     background-color: #bbd943;
 }
+
+/* animation "hello" */
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 0.5;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 1.5s fadeInUp;
+}
+
+@keyframes fadeInUp2 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation-2 {
+  animation: 1.5s fadeInUp2;
+}
+
+/* animation button */
+/* reference: https://animista.net/play/basic/slide/slide-bottom */
+.button-container {
+    animation: slide-up 0.5s ease forwards;
+    transform: translateY(100px);
+    animation-delay: 0.7s;
+    margin-top: -210px;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(300px); /* off-screen or lower */
+    }
+    to {
+        transform: translateY(0); /* final natural position */
+    }
+}
