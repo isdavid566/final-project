@@ -239,6 +239,10 @@ h3 {
     padding-right: 190px;
 }
 
+.section-1 image {
+    padding-bottom: 30px;
+}
+
 /* section-2 */
 .section-2 {
     display: flex; 
