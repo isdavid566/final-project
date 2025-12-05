@@ -195,6 +195,7 @@ h1 {
     opacity: 1;
     margin-left: 0;
     font-size: 275px;
+    animation: slideInFromBottom 1s forwards;
 }
 
 /* about content */
@@ -320,7 +321,7 @@ h3 {
 .star-decoration-1 {
     position: absolute;
     top: 1200px;
-    right: 0px;
+    right: -10px;
     z-index: 0;
     opacity: 1;
     transform: rotate(-60deg);
@@ -329,7 +330,7 @@ h3 {
 .star-decoration-2 {
     position: absolute;
     top: 450px;
-    right: -150px;
+    right: -160px;
     z-index: 0;
     opacity: 1;
     transform: rotate(-20deg);
@@ -366,6 +367,18 @@ h3 {
 
 .fadeInUp-animation-2 {
     animation: 1.5s fadeInUp2;
+}
+
+/* hero aniamtion */
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%); /* Start above the screen */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* Slide into normal position */
+        opacity: 1; /* Fade in */
+    }
 }
 
 /* animation button */
