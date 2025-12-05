@@ -11,6 +11,7 @@ body {
     color: #2B4C13;
     background-color: #FFFEF0;
     text-align: left;
+    overflow-x: hidden;
 }
 
 h3 {
@@ -204,6 +205,11 @@ h1 {
 }
 
 /* section-1 */
+.section-1,
+.section-2 {
+    overflow-x: hidden;
+}
+
 .section-1 {
     display: flex; 
     flex-direction: row; 
@@ -309,30 +315,32 @@ h3 {
 }
 
 /* star decoration */
-.star-decoration {
+.star-decoration,
+.star-decoration-1,
+.star-decoration-2 {
     position: absolute;
-    top: 600px;
-    left: -140px;
     z-index: 0;
     opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.star-decoration {
+    top: 600px;
+    left: -140px;
     transform: rotate(30deg);
 }
 
 .star-decoration-1 {
-    position: absolute;
     top: 1200px;
     right: -10px;
-    z-index: 0;
-    opacity: 1;
     transform: rotate(-60deg);
 }
 
 .star-decoration-2 {
-    position: absolute;
     top: 450px;
     right: -160px;
-    z-index: 0;
-    opacity: 1;
     transform: rotate(-20deg);
 }
 
