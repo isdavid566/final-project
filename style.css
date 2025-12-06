@@ -314,6 +314,29 @@ h3 {
     height: 100%;
 }
 
+/* footer */
+.footer-section {
+    width: 100%;
+    background-color: #F1619C;
+    padding: 10px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    gap: 10px;
+    margin: 0 auto;
+    color: #FFFEF0;
+}
+
+.footer img {
+    padding-top: 5px;
+}
+.footer p {
+    margin: 0;
+}
+
 /* star decoration */
 .star-decoration,
 .star-decoration-1,
