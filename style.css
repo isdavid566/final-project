@@ -242,7 +242,6 @@ h3 {
 .section-1-container p {
     color: #2B4C13;
     line-height: 1.6;
-    margin-bottom: 30px;
     padding-right: 190px;
 }
 
@@ -292,10 +291,65 @@ h3 {
     max-height: 50%;
 }
 
+/* section-3 */
+.section-3 {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #DDE35F;
+    padding: 120px 100px; 
+    gap: 150px;
+}
+
+.section-3-container p {
+    line-height: 1.6;
+}
+
+.section-3-container h3 {
+    line-height: 1;
+}
+
+
+/* section-trio-images */
+.section-trio-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #F8DBDB;
+    padding-bottom: 80px;
+}
+
+.section-trio-images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding-top: 0px;
+}
+
+/* section-trio-images-2 */
+.section-trio-images-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #DDE35F;
+    padding-bottom: 80px;
+}
+
+.section-trio-images-2 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding-top: 0px;
+}
+
+
 /* Button (Non-landing) */
 .button-container-2 {
     padding: 0;
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
 .button-2 {
@@ -340,7 +394,9 @@ h3 {
 /* star decoration */
 .star-decoration,
 .star-decoration-1,
-.star-decoration-2 {
+.star-decoration-2,
+.star-decoration-3,
+.star-decoration-4 {
     position: absolute;
     z-index: 0;
     opacity: 1;
@@ -365,6 +421,18 @@ h3 {
     top: 450px;
     right: -160px;
     transform: rotate(-20deg);
+}
+
+.star-decoration-3 {
+    top: 1570px;
+    right: -10px;
+    transform: rotate(-60deg);
+}
+
+.star-decoration-4 {
+    top: 2280px;
+    left: -200px;
+    transform: rotate(-60deg);
 }
 
 /* animation "hello" */
