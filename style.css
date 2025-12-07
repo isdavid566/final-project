@@ -146,6 +146,9 @@ h1 {
     line-height: 0.8;
 }
 
+.fadeInUp-animation-mobile {
+    display: none;
+}
 
 /* button */
 .button-container {
@@ -571,6 +574,10 @@ textarea {
     animation: 1.5s fadeInUp;
 }
 
+.fadeInUp-animation-mobile {
+    animation: 1.5s fadeInUp;
+}
+
 @keyframes fadeInUp2 {
     0% {
         transform: translateY(100%);
@@ -658,6 +665,10 @@ textarea {
         font-size: 200px;
     }
 
+    .fadeInUp-animation-mobile {
+        display: block;
+    }
+
     .section-1-container p {
         padding-right: 0;
     }
@@ -706,6 +717,19 @@ textarea {
     .section-trio-images img, .section-trio-images-2 img {
         width: 40%;
         height: 30%;
+    }
+
+    /* button */
+    .button-container {
+    text-align: center;
+    margin-top: -600px;
+    margin-bottom: 0px;
+    position: static;
+    z-index: 2;
+    }
+
+    .button {
+        margin-top: 0px;
     }
 
     /* stars */
