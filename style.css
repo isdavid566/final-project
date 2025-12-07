@@ -412,7 +412,7 @@ label i {
 }
 
 label {
-    font-size: 22px;
+    font-size: 30px;
     color: var(--color-dark-green);
     font-weight: bold;
     display: flex;
