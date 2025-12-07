@@ -506,7 +506,7 @@ textarea {
 }
 
 .star-decoration-1 {
-    top: 1150px;
+    top: 1120px;
     right: -10px;
     transform: rotate(-60deg);
 }
@@ -518,19 +518,19 @@ textarea {
 }
 
 .star-decoration-3 {
-    top: 1550px;
+    top: 1525px;
     right: -10px;
     transform: rotate(-60deg);
 }
 
 .star-decoration-4 {
-    top: 2280px;
+    top: 2150px;
     left: -200px;
     transform: rotate(-60deg);
 }
 
 .star-decoration-5 {
-    top: 1625px;
+    top: 1530px;
     left: -200px;
     transform: rotate(-60deg);
 }
